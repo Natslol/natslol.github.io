@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.clickanywhere
+{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.click_anywhere
+{
+    color: white;
+    font-size: 10pt;
+    font-family: 'Courier New';
+    position: relative;
+    top: 45%;
+}
+
+#backgroundVideo
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.card
+{
+    width:260px;
+    height: 340px;
+    background: hsla(0, 0%, 33%, 0.402);
+    padding: 25px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.card #img
+{
+    width: 210px;
+    height: 210px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cellule-img
+{
+    position: relative;
+}
+
+
+.card #content-card h1
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.card #content-card p
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    color: hsl(46, 79%, 43%);
+}
